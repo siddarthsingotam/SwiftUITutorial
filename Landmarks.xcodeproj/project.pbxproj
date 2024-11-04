@@ -45,6 +45,11 @@
 			path = LandmarksUITests;
 			sourceTree = "<group>";
 		};
+		E8995AC02CD9080F002C258C /* Photos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Photos;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		E8995A812CD8CF27002C258C = {
 			isa = PBXGroup;
 			children = (
+				E8995AC02CD9080F002C258C /* Photos */,
 				E8995A8C2CD8CF27002C258C /* Landmarks */,
 				E8995A9D2CD8CF28002C258C /* LandmarksTests */,
 				E8995AA72CD8CF28002C258C /* LandmarksUITests */,
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				E8995A8C2CD8CF27002C258C /* Landmarks */,
+				E8995AC02CD9080F002C258C /* Photos */,
 			);
 			name = Landmarks;
 			packageProductDependencies = (
