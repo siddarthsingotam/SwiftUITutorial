@@ -8,17 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selection: Tab = .featured
+
+    enum Tab {
+        case featured
+        case list
+    }
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selection) {
+            CategoryHome()
+                .tabItem {
+                    Label("Parties", systemImage: "star")
+                }
+                .tag(Tab.featured)
+
+            MinisterList()
+                .tabItem {
+                    Label("Members", systemImage: "list.bullet")
+                }
+                .tag(Tab.list)
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
+        .environment(ModelData())
 }

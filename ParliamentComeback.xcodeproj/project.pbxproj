@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E86DA9EA2CDE374800F2574D /* Build configuration list for PBXProject "ParliamentStrikesAgain" */;
+			buildConfigurationList = E86DA9EA2CDE374800F2574D /* Build configuration list for PBXProject "ParliamentComeback" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E86DA9EA2CDE374800F2574D /* Build configuration list for PBXProject "ParliamentStrikesAgain" */ = {
+		E86DA9EA2CDE374800F2574D /* Build configuration list for PBXProject "ParliamentComeback" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E86DAA112CDE374900F2574D /* Debug */,
